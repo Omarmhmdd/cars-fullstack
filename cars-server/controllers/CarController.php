@@ -54,7 +54,7 @@ function deleteCar(){
     Car::delete($connection, $id);
     echo ResponseService::response(200,"row is Deleted");
 }
-deleteCar();
+//deleteCar();
 //ToDO: 
 //transform getCarByID to getCars()
 //if the id is set? then we retrieve the specific car 
